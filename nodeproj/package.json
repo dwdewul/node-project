@@ -1,0 +1,25 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "Node JS project example",
+  "main": "app.js",
+  "author": "David DeWulf",
+  "dependencies": {
+    "async": "~0.2.8",
+    "ejs": "^2.5.6",
+    "express": "~4.13.3",
+    "socket.io": "~0.9.14"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.2.0",
+    "gulp-jshint": "^2.0.4",
+    "jshint": "^2.9.5",
+    "nodemon": "^1.11.0",
+    "wiredep": "^4.0.0"
+  },
+  "license": "ISC"
+}
